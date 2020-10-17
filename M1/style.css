@@ -1,0 +1,11 @@
+.custom-b {
+    font-weight: normal ;
+}
+.custom-s {
+    font-weight: normal !important;
+}
+
+.custom-h1{
+    background-color: red; font-size: 50px; 
+    font-weight: bolder;
+}

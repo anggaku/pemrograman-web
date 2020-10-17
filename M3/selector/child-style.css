@@ -1,0 +1,7 @@
+ul > li {
+    list-style: lower-alpha;
+}
+ul > li ol a {
+    list-style: none;
+    text-decoration: none;
+}

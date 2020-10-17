@@ -1,0 +1,112 @@
+body{
+    display: block;
+    margin: 1px;
+}
+
+.custom-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #EAEAEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .custom-ul li {
+    float: left;
+  }
+
+  .custom-ul li a {
+    display: block;
+    color: #231F20;
+    text-align: center;
+    padding: 6px 8px;
+    margin: 1rem;
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .custom-ul li a:hover {
+    background-color: #BC793E;
+    color: white;
+  }
+
+  .custom-ul .title {
+    font-family: 'Arvo', serif;
+    margin: 1rem;
+    border: 2px solid #BC793E;
+    box-sizing: border-box;
+    color: #BC793E;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .name {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #BC793E;
+  }
+
+  .job {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #BC793E;
+  }
+
+  .custom-header {
+    margin: 1rem;
+  }
+
+  .subtitle {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #AD947F;
+  }
+
+  .description {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+  }
+
+  footer {
+    background: #EAEAEA;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  footer p {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #AD947F;
+  }
+
+  .music {
+    z-index: 2;
+    position: fixed;
+    bottom: 8%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.music img {
+  width: 8%;
+  padding: 1%;
+  background: rgba(255,255,255,0.5);
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
