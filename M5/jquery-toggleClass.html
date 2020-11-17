@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+						
+			$('#btnToggleDivClass').click(function(){
+				$('#myDiv').toggleClass('redDiv');
+
+			});
+				
+        });
+    </script>
+	<style>
+    .yellowDiv{
+		background-color:yellow;
+		margin: 10px 0 0 0;
+		height:100px;
+		width: 100px;
+    }
+    .redDiv{
+		background-color:red;
+		margin: 10px 0 0 0;
+		height:100px;
+		width: 100px;
+    }
+  </style>
+</head>
+<body>
+	<h1>Demo: jQuery toggleClass() method</h1>
+	<button id="btnToggleDivClass">Toggle div class</button>
+	
+	<div id="myDiv" class="yellowDiv" >
+	</div>
+</body>
+</html>

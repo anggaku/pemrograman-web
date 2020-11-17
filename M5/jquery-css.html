@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+
+			$('#myDiv').css('background-color','yellow');
+					$('#btnShow').click(function(){
+					$('p').css({'font-size':'16px','font-weight':'bold'});
+
+					alert($('#myDiv').css('background-color'));				
+
+				});
+			
+        });
+    </script>
+</head>
+<body>
+	<h1>Demo: jQuery css() method</h1>
+	<button id="btnShow">Show div style</button>
+	
+	<div id="myDiv">
+		<p>
+			This is first paragraph.
+		</p>
+	</div>
+	<div>
+			<p>This is second paragraph.</p>
+		</div>
+	<div >
+		<p>This is third paragraph.</p>
+	</div>
+</body>
+</html>

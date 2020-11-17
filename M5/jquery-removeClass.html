@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <style>
+        .redTxt {
+            color: red;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").removeClass();
+                $("#intro").removeClass('redTxt');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery Manipulation Methods: removeClass()</h1>
+    <div class="redTxt">
+        This is div.
+    </div>
+    <p id="intro" class="redTxt">This is paragraph.</p>
+    
+    <button>Click Here to test .removeClass()</button>
+</body>
+</html>

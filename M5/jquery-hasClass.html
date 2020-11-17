@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <style>
+        .redTxt {
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                alert("Testing if p tag has class redTxt: " + $("#intro").hasClass('redTxt'));
+                alert("Testing if div tag has class redTxt: " + $("div").hasClass('redTxt'));
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery Manipulation Methods: hasClass()</h1>
+    
+	<p id="intro" class="redTxt">This is a paragraph.</p>
+    
+	<div>This is div</div>
+    
+	<button>Click Here to Test .hasClass()</button>
+</body>
+</html>
